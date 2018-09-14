@@ -3,4 +3,4 @@ theme: jekyll-theme-cayman
 title: Welcome to ShellHacks 2018!
 description: Learn how to code together using git
 
-show_downloads: false
+show_downloads: "false"
