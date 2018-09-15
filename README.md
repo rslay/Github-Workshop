@@ -213,4 +213,12 @@ That's it! You are now ready to take on big projects.
 
 Don't forget, *everyone makes mistakes*. You learn by practice, and git is very forgiving, since **you can go backward in time and undo almost everything**.
 
+And when you do mess up, your team will be able to see it all, with:
+
+```
+git blame <filename>
+```
+
+Which shows all code and changes.
+
 Here is a link to that [interactive manual](https://ndpsoftware.com/git-cheatsheet.html) again, where you can click on and see everything in detail and see all the commands. No need to memorize anything.
