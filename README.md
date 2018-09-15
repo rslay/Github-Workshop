@@ -181,4 +181,36 @@ That's all you need to do! It's actually really easy, just go to branches on you
 
 ![](images/branches.png)
 
-It's just like having two different repos, but they're seperated by branches.
+You can delete them there.
+
+Having branches is just like having two different repos, but their code is seperated.
+
+After doing commits, you're supposed to merge all the changes of a branch into `master`. On github.com, select your non-`master` branch, and when you're ready, select to create a new pull request:
+
+![](images/makePR.png)
+
+This is where you review what will happen when github merges the two branches.
+
+Go over all of that by scrolling down to this part:
+
+![](images/diff.png)
+
+After you resolve all issues, you'll be able to click on the green "Create pull request" button.
+
+![](images/newPR.png)
+
+Now that you've requested for this branch to be merged, you or another team can look at the pull requests here:
+
+![](images/PRs.png)
+
+You can review the PR and have your team comment before either merging the branch and bringing it into `master`, or closing it with a comment about why it won't be merged.
+
+![](images/mergePR.png)
+
+Once it's done, your non-`master` branch will combine into the `master` branch. Don't forget to delete the old non-`master` branch.
+
+That's it! You are now ready to take on big projects. 
+
+Don't forget, *everyone makes mistakes*. You learn by practice, and git is very forgiving, since **you can go backward in time and undo almost everything**.
+
+Here is a link to that [interactive manual](https://ndpsoftware.com/git-cheatsheet.html) again, where you can click on and see everything in detail and see all the commands. No need to memorize anything.
