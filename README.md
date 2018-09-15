@@ -36,9 +36,11 @@ Make a new file in the folder (use `touch <filename>` on mac), and then open it 
 As you make new files or make changes to existing ones, the code on your local repository will need to be synced with the code online in github.com.
 
 Once you have changes or new files in your repo after coding, type in:
+
 ```
 git status
 ```
+
 This will show you a lot of useful information on the current changes and differences you have with the online repo, and `git diff` will be more in-depth.
 
 However, you might not be up-to-date with the latest changes on the remote repo on github, so to keep your current work while also being able to update and see differences, use `git fetch`.
@@ -46,12 +48,55 @@ However, you might not be up-to-date with the latest changes on the remote repo 
 Next step is to add your changes to your **Index**, also known as the stage. This is where code goes when you modify it and want to make a new commit that will be visible on the repo.
 
 Do this by typing:
+
 ```
 git add <filename>
 ```
+
 Or more often than not, if you want to add every file, you can use a dot, which meants **all files** in the folder:
+
 ```
 git add .
 ```
 
-To remove files and put them back, use:
+To take files out of the **Index**, use:
+
+```
+git reset <filename>
+```
+
+You can use a dot in place of a filename to do it with everything the same way you do with adding:
+
+```
+git reset .
+```
+
+Once files have been added, you can type the following to commit all your changes:
+
+```
+git commit -m "This is a message that people will see on github"
+```
+
+A commit is like an 'update'. Whether it be to fix typos or add a new feature to your project, it contains changes bunched up into removed and added lines of code.
+
+Simple enough? This is all happening on your computer's local repository, though, so it's time to upload these commits to the internet - to github.com.
+
+Before you do that, your team might have made changes, too. You'll need to first pull in the latest changes to your local repo from the remote repo:
+
+```
+git pull
+```
+
+If your team wasn't working on the same lines of code as you, and there are no conflicts, you will have the latest code online automatically merged with your computer's code.
+
+**Before the next step**: Make sure your program runs/website is working! Sometimes people will edit code that will inadvertently affect what you have on your machine, because you've made changes on your computer they couldn't account for.
+
+Now that everything is ready and your current project is working, upload it to github.com by doing:
+
+```
+git push
+```
+
+### *Radical!*
+
+You did it. Next, you gotta set up 
