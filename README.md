@@ -177,3 +177,8 @@ Great. But wait, we're still on `master`! This is how to switch between branches
 git checkout indev
 ```
 
+That's all you need to do! It's actually really easy, just go to branches on your repo:
+
+![](images/branches.png)
+
+It's just like having two different repos, but they're seperated by branches.
