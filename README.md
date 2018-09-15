@@ -134,11 +134,12 @@ There, you'll enter your team member's usernames.
 
 After that, your team will be able to type `git clone <repo url>` and `cd` into the folder, and run commands just like you.
 
-## 
+## Collaboration and Branching
 
 So now your team is working on code, but you'll run into merge conflicts, where your team has edited the same lines of code you have, and git doesn't want to make assumptions when combining your code. 
 
 It'll look like this:
+
 ```
 Auto-merging file.txt
 CONFLICT (content): Merge conflict in file.txt
@@ -146,6 +147,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 
 If you open the file, you'll see both conflicting changes next to each other, sort of like this:
+
 ```
 <<<<<<< HEAD
 A line in my file.
