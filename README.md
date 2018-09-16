@@ -81,6 +81,13 @@ You can use a dot in place of a filename to do it with everything the same way y
 git reset .
 ```
 
+Before you do any commits, you'll want to run these commands to configure your identity with `git`:
+
+```
+git config --global user.name "<your github username>"
+git config --global user.email "<your github email>"
+```
+
 Once files have been added, you can type the following to commit all your changes:
 
 ```
@@ -102,13 +109,6 @@ git pull
 If your team wasn't working on the same lines of code as you, and there are no conflicts, you will have the latest code online automatically merged with your computer's code.
 
 **Before the next step**: Make sure your program runs/website is working! Sometimes people will edit code that will inadvertently affect what you have on your machine, because you've made changes on your computer they couldn't account for.
-
-Additionally, before you upload anything online, you'll want to run these commands:
-
-```
-git config --global user.name "<your github username>"
-git config --global user.email "<your github email>"
-```
 
 Now that everything is ready and your current project is working, upload it to github.com by doing:
 
