@@ -224,3 +224,7 @@ git blame <filename>
 Which shows all code and changes.
 
 Here is a link to that [interactive manual](https://ndpsoftware.com/git-cheatsheet.html) again, where you can click on and see everything in detail and see all the commands. No need to memorize anything.
+
+
+## Help! Something broke! It's not working!
+Bookmark [ohshitgit.com](https://ohshitgit.com/) to find quick help and solutions to common problems.
