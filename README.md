@@ -1,6 +1,6 @@
 # Getting started
 ## Installation
-### The simplest way to install `git`, the fastest tool for working on the same code together in a team, visit:
+### For the simplest way to install `git`, the fastest tool for working on the same code together in a team, visit:
 - [https://git-scm.com/download/win](https://git-scm.com/download/win) for Windows
 - [https://git-scm.com/download/mac](https://git-scm.com/download/mac) for MacOS
 
