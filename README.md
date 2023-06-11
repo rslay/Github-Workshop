@@ -4,7 +4,7 @@
 - [https://git-scm.com/download/win](https://git-scm.com/download/win) for Windows
 - [https://git-scm.com/download/mac](https://git-scm.com/download/mac) for MacOS
 
-Once installed, open up your Powershell terminal on:
+Once installed, open up your terminal on:
 - Windows by pressing `Win`+`R` and typing `powershell`, then hit `Enter`
 - Mac by opening `Terminal.app`, which is inside the Utilities folder of launchpad
 
